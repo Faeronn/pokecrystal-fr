@@ -1,21 +1,19 @@
 NurseMornText:
-	text "Good morning!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Bien le bonjour!"
+	line "Bienvenue au"
+	cont "CENTRE #MON."
 	done
 
 NurseDayText:
-	text "Hello!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Salut!"
+	line "Bienvenue au"
+	cont "CENTRE #MON."
 	done
 
 NurseNiteText:
-	text "Good evening!"
-	line "You're out late."
-
-	para "Welcome to our"
-	line "#MON CENTER."
+	text "Bonsoir!"
+	line "Bienvenue au"
+	cont "CENTRE #MON."
 	done
 
 PokeComNurseMornText:
@@ -50,30 +48,30 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
-	text "We can heal your"
-	line "#MON to perfect"
-	cont "health."
+	text "Nous pouvons"
+	line "soigner vos"
+	cont "#MON."
 
-	para "Shall we heal your"
-	line "#MON?"
+	para "Voulez-vous les"
+	line "soigner?"
 	done
 
 NurseTakePokemonText:
-	text "OK, may I see your"
-	line "#MON?"
+	text "OK, puis-je voir"
+	line "vos #MON?"
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for"
-	line "waiting."
+	text "Merci d'avoir"
+	line "attendu."
 
-	para "Your #MON are"
-	line "fully healed."
+	para "Vos #MON sont"
+	line "en super forme."
 	done
 
 NurseGoodbyeText:
-	text "We hope to see you"
-	line "again."
+	text "Encore merci et"
+	line "à bientôt!"
 	done
 
 ; not used
@@ -115,22 +113,22 @@ PokeComNursePokerusText:
 	done
 
 DifficultBookshelfText:
-	text "It's full of"
-	line "difficult books."
+	text "C'est rempli de"
+	line "livres compliqués."
 	done
 
 PictureBookshelfText:
-	text "A whole collection"
-	line "of #MON picture"
-	cont "books!"
+	text "Une collection de"
+	line "livres d'images"
+	cont "#MON!"
 	done
 
 MagazineBookshelfText:
-	text "#MON magazines…"
-	line "#MON PAL,"
+	text "Magazines #MON…"
+	line "STYLO #MON,"
 
-	para "#MON HANDBOOK,"
-	line "#MON GRAPH…"
+	para "CAHIER #MON,"
+	line "GRAPH #MON…"
 	done
 
 TeamRocketOathText:
@@ -155,21 +153,21 @@ IncenseBurnerText:
 	done
 
 MerchandiseShelfText:
-	text "Lots of #MON"
-	line "merchandise!"
+	text "Tout plein de"
+	line "trucs #MON!"
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP."
+	text "C'est la CARTE."
 	done
 
 WindowText:
-	text "My reflection!"
-	line "Lookin' good!"
+	text "Oh..."
+	line "Que c'est beau!"
 	done
 
 TVText:
-	text "It's a TV."
+	text "C'est la TV."
 	done
 
 HomepageText:
@@ -240,7 +238,7 @@ ContestResults_PlayerWonAPrizeText:
 	done
 
 ReceivedItemText:
-	text "<PLAYER> received"
+	text "<PLAYER> reçoit"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
