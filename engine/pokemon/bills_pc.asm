@@ -234,10 +234,10 @@ BillsPCDepositMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DEPOSIT@"
+	db "STOCKER@"
 	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "RELACHER@"
+	db "RETOUR@"
 
 BillsPCClearThreeBoxes: ; unreferenced
 	hlcoord 0, 0
@@ -490,7 +490,7 @@ BillsPC_Withdraw:
 	db "WITHDRAW@"
 	db "STATS@"
 	db "RELEASE@"
-	db "CANCEL@"
+	db "RETOUR@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -699,7 +699,7 @@ _MovePKMNWithoutMail:
 	db 3 ; items
 	db "MOVE@"
 	db "STATS@"
-	db "CANCEL@"
+	db "RETOUR@"
 
 .PrepInsertCursor:
 	xor a
@@ -1008,7 +1008,7 @@ BillsPC_BoxName:
 	ret
 
 .PartyPKMN:
-	db "PARTY <PK><MN>@"
+	db "EQUIPE<PK><MN>@"
 
 PCMonInfo:
 ; Display a monster's pic and
@@ -1255,7 +1255,7 @@ BillsPC_RefreshTextboxes:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "RETOUR@"
 
 .PlaceNickname:
 	ld a, [de]
@@ -2200,11 +2200,11 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
-PCString_WhatsUp: db "What's up?@"
+PCString_ChooseaPKMN: db "Choisir un <PK><MN>.@"
+PCString_WhatsUp: db "Que faire?@"
 PCString_ReleasePKMN: db "Release <PK><MN>?@"
 PCString_MoveToWhere: db "Move to where?@"
-PCString_ItsYourLastPKMN: db "It's your last <PK><MN>!@"
+PCString_ItsYourLastPKMN: db "Dernier <PK><MN>!@"
 PCString_TheresNoRoom: db "There's no room!@"
 PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
 PCString_RemoveMail: db "Remove MAIL.@"
@@ -2381,7 +2381,7 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
-	db "CURRENT@"
+	db "EN COURS@"
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2461,24 +2461,24 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SWITCH@"
-	db "NAME@"
-	db "PRINT@"
-	db "QUIT@"
+	db "CHANG.@"
+	db "NOM@"
+	db "IMPRIM@"
+	db "RETOUR@"
 
 BillsPC_PlaceChooseABoxString:
 	ld de, .ChooseABox
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "Choisir une boîte.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp
 	jr BillsPC_PlaceChangeBoxString
 
 .WhatsUp:
-	db "What's up?@"
+	db "Que faire?@"
 
 BillsPC_PlaceEmptyBoxString_SFX:
 	ld de, .NoMonString
@@ -2491,7 +2491,7 @@ BillsPC_PlaceEmptyBoxString_SFX:
 	ret
 
 .NoMonString:
-	db "There's no #MON.@"
+	db "Pas de #MON!@"
 
 BillsPC_PlaceChangeBoxString:
 	push de
