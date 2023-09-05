@@ -129,13 +129,12 @@ MomPhoneNoPokemonText:
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "Allô?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
-
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "Bonjour <PLAYER>!"
+	line "Le PROF.ORME"
+	cont "compte sur toi!"
+	cont "C'est bien!"
 	done
 
 MomPhoneNoGymQuestText:

@@ -1,12 +1,12 @@
 ElmPhoneHealYourMonText:
-	text "Hello, <PLAY_G>?"
+	text "<PLAY_G>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Fais bien"
+	line "attention..."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Soigne bien tes"
+	line "#MON s'ils sont"
+	cont "blessés."
 	done
 
 ElmPhoneSawMrPokemonText:
