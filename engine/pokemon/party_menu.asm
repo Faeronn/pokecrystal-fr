@@ -110,7 +110,7 @@ PlacePartyNicknames:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "RETOUR@"
 
 PlacePartyHPBar:
 	xor a
@@ -341,10 +341,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "APTE@"
 
 .string_not_able
-	db "NOT ABLE@"
+	db "PAS APTE@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -423,9 +423,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "APTE@"
 .string_not_able
-	db "NOT ABLE@"
+	db "PAS APTE@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -746,10 +746,10 @@ PartyMenuStrings:
 	dw ToWhichPKMNString
 
 ChooseAMonString:
-	db "Choose a #MON.@"
+	db "Choisir un #MON@"
 
 UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
+	db "Sur quel <PK><MN>?@"
 
 WhichPKMNString:
 	db "Which <PK><MN>?@"
