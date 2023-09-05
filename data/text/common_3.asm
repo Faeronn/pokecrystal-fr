@@ -629,12 +629,12 @@ _MartSellHowManyText::
 	done
 
 _MartSellPriceText::
-	text "I can pay you"
-	line "¥@"
+	text "J'peux t'en donner"
+	line "@"
 	text_decimal hMoneyTemp, 3, 6
-	text "."
+	text "¥."
 
-	para "Is that OK?"
+	para "Ca te va?"
 	done
 
 _MartWelcomeText::
