@@ -700,20 +700,20 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
+	db   "STATUT/"
 	next "TYPE/@"
 
 .OK_str:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "PTS EXP.@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "PROCH.NIV.@"
 
 .ToStr:
-	db "TO@"
+	db "▶@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -726,7 +726,7 @@ LoadGreenPage:
 	hlcoord 8, 8
 	call PlaceString
 	ld de, .Move
-	hlcoord 0, 10
+	hlcoord 0, 9
 	call PlaceString
 	ld hl, wTempMonMoves
 	ld de, wListMoves_MoveIndicesBuffer
@@ -755,13 +755,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "OBJET/@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "CAPACITE/@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -818,10 +818,10 @@ LoadBluePage:
 	dw wBufferMonOT
 
 IDNoString:
-	db "<ID>№.@"
+	db "№.<ID>@"
 
 OTString:
-	db "OT/@"
+	db "DO/@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs
