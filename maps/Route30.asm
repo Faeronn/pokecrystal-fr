@@ -261,15 +261,15 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Allez, RATTATA!"
 
-	para "TACKLE!"
+	para "CHARGE!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Quoi? C'est un"
+	line "grand combat!"
+	cont "Laisse-moi!"
 	done
 
 YoungsterJoey1SeenText:
@@ -343,9 +343,9 @@ BugCatcherDonAfterText:
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	text "La maison de"
+	line "M.#MON? C'est"
+	cont "un peu plus loin."
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
@@ -365,17 +365,17 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "ROUTE 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "MAUVILLE -"
+	line "VILLE GRIOTTE"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
-	line "STRAIGHT AHEAD!"
+	text "CHEZ M.#MON"
+	line "C'est tout droit!"
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "CHEZ M.#MON"
 	done
 
 Route30TrainerTipsText:

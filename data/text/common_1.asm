@@ -47,8 +47,8 @@ _RecoveredSomeHPText::
 
 _CuredOfPoisonText::
 	text_ram wStringBuffer1
-	text "'s"
-	line "cured of poison."
+	text " n'est"
+	line "plus empoisonné."
 	done
 
 _RidOfParalysisText::
@@ -567,7 +567,7 @@ _OPT_UndeniablyKindOfText::
 
 _OPT_UnbearablyText::
 	text_start
-	line "est tellement"
+	line "est très"
 	done
 
 _OPT_WowImpressivelyText::
@@ -592,12 +592,12 @@ _OPT_MischievouslyText::
 
 _OPT_TopicallyText::
 	text_start
-	line "est très"
+	line "est célèbre et"
 	done
 
 _OPT_AddictivelyText::
 	text_start
-	line "est célèbre et"
+	line "est très"
 	done
 
 _OPT_LooksInWaterText::
@@ -622,7 +622,7 @@ _OPT_FlippedOutText::
 
 _OPT_HeartMeltinglyText::
 	text_start
-	line "est trop chou et"
+	line "est tellement"
 	done
 
 _OPT_CuteText::
@@ -652,7 +652,7 @@ _OPT_FrighteningText::
 
 _OPT_SuaveDebonairText::
 	text_start
-	line "gracieux."
+	line "rapide!"
 	done
 
 _OPT_PowerfulText::
@@ -697,7 +697,7 @@ _OPT_GuardedText::
 
 _OPT_LovelyText::
 	text_start
-	line "charmant."
+	line "gracieux."
 	done
 
 _OPT_SpeedyText::
@@ -721,12 +721,12 @@ _PokedexShowText::
 
 _BenIntroText1::
 	text_start
-	line "BEN: #MON MUSIC"
+	line "BEN: ANTENNE"
 	done
 
 _BenIntroText2::
 	text_start
-	line "CHANNEL!"
+	line "MUSIQUE PKMN!"
 	done
 
 _BenIntroText3::
@@ -1311,10 +1311,10 @@ _RepelWoreOffText::
 	done
 
 _PlayerFoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> trouve"
 	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text "."
 	done
 
 _ButNoSpaceText::

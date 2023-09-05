@@ -475,17 +475,17 @@ _EvolvingText::
 	done
 
 _MartHowManyText::
-	text "How many?"
+	text "Combien?"
 	done
 
 _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "POUR @¥"
+	text_start
+	line "pour @"
 	text_decimal hMoneyTemp, 3, 6
-	text "."
+	text "¥."
 	done
 
 _HerbShopLadyIntroText::
@@ -512,9 +512,9 @@ _HerbalLadyFinalPriceText::
 	text " @"
 	text_ram wStringBuffer2
 	text "(S)"
-	line "will be ¥@"
+	line "will be @"
 	text_decimal hMoneyTemp, 3, 6
-	text "."
+	text "¥."
 	done
 
 _HerbalLadyThanksText::
@@ -551,9 +551,9 @@ _BargainShopIntroText::
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
 	text " costs"
-	line "¥@"
+	line "@"
 	text_decimal hMoneyTemp, 3, 6
-	text ". Want it?"
+	text "¥. Want it?"
 	done
 
 _BargainShopThanksText::
@@ -589,15 +589,15 @@ _PharmacyIntroText::
 _PharmacyHowManyText::
 	text "How many?"
 	done
-
+ 
 _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
 	text "(S)"
-	line "will cost ¥@"
+	line "will cost @"
 	text_decimal hMoneyTemp, 3, 6
-	text "."
+	text "¥."
 	done
 
 _PharmacyThanksText::

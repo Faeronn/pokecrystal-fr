@@ -56,7 +56,7 @@ BattleText_EnemyFled:
 
 HurtByPoisonText:
 	text "<USER>"
-	line "is hurt by poison!"
+	line "souffre du poison!"
 	prompt
 
 HurtByBurnText:
@@ -692,7 +692,7 @@ AlreadyAsleepText:
 
 WasPoisonedText:
 	text "<TARGET>"
-	line "was poisoned!"
+	line "est empoisonné!"
 	prompt
 
 BadlyPoisonedText:

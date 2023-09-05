@@ -3,7 +3,7 @@ StatNames:
 	list_start StatNames
 	li "ATTAQUE"
 	li "DEFENSE"
-	li "SPEED"
+	li "VITESSE"
 	li "ATQ.SPE."
 	li "DEF.SPE."
 	li "PRECISION"

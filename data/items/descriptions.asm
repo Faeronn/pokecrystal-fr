@@ -547,8 +547,8 @@ QuickClawDesc:
 	next "ratio. (HOLD)@"
 
 PsnCureBerryDesc:
-	db   "A self-cure for"
-	next "poison. (HOLD)@"
+	db   "un antidote auto-"
+	next "matique. (TENU)@"
 
 GoldLeafDesc:
 	db   "A strange, gold-"
