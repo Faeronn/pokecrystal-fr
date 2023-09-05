@@ -265,7 +265,7 @@ Options_BattleStyle:
 	and a
 	ret
 
-.Shift: db "CHOIX@"
+.Shift: db "CHOIX @"
 .Set:   db "DEFINI@"
 
 Options_Sound:
