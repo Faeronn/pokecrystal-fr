@@ -245,7 +245,7 @@ PicnickerErin2BeatenText:
 
 Route46SignText:
 	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	line "CHEMIN de MONTAGNE"
 	done
 
 Route46_MapEvents:

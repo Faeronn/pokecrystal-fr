@@ -935,21 +935,20 @@ Text_RejectMonWithMail:
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "I'm sorry--the"
-	line "TIME CAPSULE is"
-	cont "being adjusted."
+	text "Le BLOC TEMPOREL"
+	line "est en réparation."
 	done
 
 Text_TradeRoomClosed:
-	text "I'm sorry--the"
-	line "TRADE MACHINE is"
-	cont "being adjusted."
+	text "La MACHINE à"
+	line "ECHANGES est en"
+	cont "réparation."
 	done
 
 Text_BattleRoomClosed:
-	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
-	cont "being adjusted."
+	text "La MACHINE à"
+	line "COMBATS est en"
+	cont "réparation."
 	done
 
 Text_MysteryGiftDeliveryGuy_Intro:

@@ -247,11 +247,12 @@ DudeMovementData2b:
 	step_end
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "Les #MON se"
+	line "cachent dans"
 
-	para "knows when they'll"
-	line "pop out…"
+	para "l'herbe. Ils sur-"
+	line "gissent d'un coup."
+	cont "Pouf!"
 	done
 
 CatchingTutorialIntroText:
@@ -292,34 +293,34 @@ CatchingTutorialRepeatText:
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Salut. Comment"
+	line "vont tes #MON?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "S'ils sont fati-"
+	line "gués ou incapables"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "de combattre,"
+	line "évite l'herbe!"
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Tu vois ce mur?"
+	line "Sauter de là doit"
+	cont "faire peur."
 
-	para "But you can go to"
-	line "NEW BARK without"
+	para "Mais tu peux aller"
+	line "à BOURG GEON sans"
 
-	para "walking through"
-	line "the grass."
+	para "marcher dans les"
+	line "hautes herbes."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "J'ai voulu faire"
+	line "une pause alors"
 
-	para "to record my"
-	line "progress."
+	para "j'ai sauvegardé ma"
+	line "partie."
 	done
 
 Route29CooltrainerMText_WaitingForDay: ; unreferenced
@@ -331,19 +332,19 @@ Route29CooltrainerMText_WaitingForDay: ; unreferenced
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "J'attends les"
+	line "#MON qui n'ap-"
 
-	para "appear only at"
-	line "night."
+	para "paraissent que la"
+	line "nuit."
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "J'attends les"
+	line "#MON qui n'ap-"
 
-	para "appear only in the"
-	line "morning."
+	para "paraissent que le"
+	line "matin."
 	done
 
 MeetTuscanyText:
@@ -401,15 +402,15 @@ TuscanyNotTuesdayText:
 Route29Sign1Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "VILLE GRIOTTE -"
+	line "BOURG GEON"
 	done
 
 Route29Sign2Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "VILLE GRIOTTE -"
+	line "BOURG GEON"
 	done
 
 Route29_MapEvents:

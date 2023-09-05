@@ -20,27 +20,26 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! My"
-	line "husband's always"
+	text "Salut <PLAY_G>!"
+	line "Mon mari est tou-"
 
-	para "so busy--I hope"
-	line "he's OK."
+	para "jours occupé..."
+	line "J'espère qu'il va"
+	cont "bien."
 
-	para "When he's caught"
-	line "up in his #MON"
-
-	para "research, he even"
-	line "forgets to eat."
+	para "Lorsqu'il travail-"
+	line "le, il oublie même"
+	cont "de manger."
 	done
 
 ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my dad!"
+	text "Quand je serai"
+	line "grand, j'aiderai"
+	cont "mon papa!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "Je serai un sacré"
+	line "professeur POKé-"
+	cont "MON super balèze!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
@@ -56,27 +55,27 @@ ElmsHousePokemonFoodText: ; unreferenced
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "Les #MON..."
+	line "D'où viennent-ils?"
 
-	para "Where are they"
-	line "going?"
+	para "Où vont-ils?"
+	line "Et pourquoi?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Pourquoi personne"
+	line "n'a jamais vu une"
+	cont "naissance de"
+	cont "#MON?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "Je veux tout"
+	line "savoir!"
 
-	para "life to the study"
-	line "of #MON!"
+	para "lJe dédie ma vie à"
+	line "la recherche!"
 
 	para "…"
 
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "C'est une note"
+	line "du PROF.ORME."
 	done
 
 ElmsHouse_MapEvents:

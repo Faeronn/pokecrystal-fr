@@ -484,13 +484,15 @@ CherrygroveRivalText_YouWon:
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "As-tu parlé au"
+	line "vieil homme près"
+	cont "du CENTRE"
+	cont "#MON?"
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
-	cont "#GEAR."
+	para "Il déposera une"
+	line "CARTE de JOHTO"
+	cont "dans ton"
+	cont "POKéMATOS."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
@@ -500,9 +502,9 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "La maison de"
+	line "M.#MON est un"
+	cont "peu plus loin."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
@@ -518,30 +520,32 @@ CherrygroveYoungsterText_HavePokedex:
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #MON I caught"
-	line "had an item."
+	text "Le #MON que"
+	line "j'ai attrapé avait"
+	cont "un objet."
 
-	para "I think it's"
-	line "MYSTIC WATER."
+	para "Je crois que c'est"
+	line "de l'EAU MYSTIQUE."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Je n'en ai pas"
+	line "besoin..."
+	cont "La veux-tu?"
 	done
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Allez hop, retour"
+	line "à la pêche."
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "VILLE GRIOTTE"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "La ville aux"
+	line "fleurs parfumées"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "MAISON DES GUIDES"
 	done
 
 CherrygroveCity_MapEvents:
