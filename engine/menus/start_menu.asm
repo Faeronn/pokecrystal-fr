@@ -188,12 +188,12 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "PACK@"
+.PackString:     db "SAC@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
-.OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
-.PokegearString: db "<POKE>GEAR@"
+.SaveString:     db "SAUVER@"
+.OptionString:   db "OPTIONS@"
+.ExitString:     db "RETOUR@"
+.PokegearString: db "<POKE>MATOS@"
 .QuitString:     db "QUIT@"
 
 .PokedexDesc:
@@ -201,31 +201,31 @@ StartMenu::
 	next "database@"
 
 .PartyDesc:
-	db   "Party <PKMN>"
-	next "status@"
+	db   "Statut"
+	next "Equipe <PKMN>@"
 
 .PackDesc:
-	db   "Contains"
-	next "items@"
+	db   "Contient"
+	next "objets@"
 
 .PokegearDesc:
-	db   "Trainer's"
-	next "key device@"
+	db   "Objets-clé"
+	next "dresseur@"
 
 .StatusDesc:
-	db   "Your own"
-	next "status@"
+	db   "Votre"
+	next "statut@"
 
 .SaveDesc:
-	db   "Save your"
-	next "progress@"
+	db   "Sauver la"
+	next "partie@"
 
 .OptionDesc:
-	db   "Change"
-	next "settings@"
+	db   "Changer"
+	next "paramètres@"
 
 .ExitDesc:
-	db   "Close this"
+	db   "Fermer ce"
 	next "menu@"
 
 .QuitDesc:

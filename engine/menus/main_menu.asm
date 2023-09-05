@@ -65,9 +65,9 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
+	db "CONTINUER@"
+	db "NOUVEAU JEU@"
+	db "OPTIONS@"
 	db "MYSTERY GIFT@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
@@ -341,22 +341,16 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld e, l
 	pop hl
 	call PlaceString
-	ld h, b
-	ld l, c
-	ld de, .Day
-	call PlaceString
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
-.Day:
-	db "DAY@"
+	db "DIMANCHE@"
+	db "LUNDI@"
+	db "MARDI@"
+	db "MERCREDI@"
+	db "JEUDI@"
+	db "VENDREDI@"
+	db "SAMEDI@"
 
 ClearTilemapEtc:
 	xor a

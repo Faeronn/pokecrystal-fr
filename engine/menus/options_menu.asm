@@ -75,21 +75,21 @@ _Option:
 	ret
 
 StringOptions:
-	db "TEXT SPEED<LF>"
+	db "VIT.TEXTE<LF>"
 	db "        :<LF>"
-	db "BATTLE SCENE<LF>"
+	db "ANIMATION COMBAT<LF>"
 	db "        :<LF>"
-	db "BATTLE STYLE<LF>"
+	db "STYLE COMBAT<LF>"
 	db "        :<LF>"
-	db "SOUND<LF>"
+	db "SON<LF>"
 	db "        :<LF>"
-	db "PRINT<LF>"
+	db "IMPRIMER<LF>"
 	db "        :<LF>"
-	db "MENU ACCOUNT<LF>"
+	db "COMPTE MENU<LF>"
 	db "        :<LF>"
-	db "FRAME<LF>"
+	db "FENETRE<LF>"
 	db "        :TYPE<LF>"
-	db "CANCEL@"
+	db "RETOUR@"
 
 GetOptionPointer:
 	jumptable .Pointers, wJumptableIndex
@@ -163,9 +163,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "3@"
+.Mid:  db "2@"
+.Slow: db "1@"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -227,8 +227,8 @@ Options_BattleScene:
 	and a
 	ret
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "OUI@"
+.Off: db "NON@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -265,8 +265,8 @@ Options_BattleStyle:
 	and a
 	ret
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "CHOIX@"
+.Set:   db "DEFINI@"
 
 Options_Sound:
 	ld hl, wOptions
@@ -372,11 +372,11 @@ Options_Print:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
+.Lightest: db "CLAIR+  @"
+.Lighter:  db "CLAIR   @"
 .Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Darker:   db "SOMBRE  @"
+.Darkest:  db "SOMBRE+ @"
 
 GetPrinterSetting:
 ; converts GBPRINTER_* value in a to OPT_PRINT_* value in c,
@@ -450,8 +450,8 @@ Options_MenuAccount:
 	and a
 	ret
 
-.Off: db "OFF@"
-.On:  db "ON @"
+.Off: db "NON@"
+.On:  db "OUI@"
 
 Options_Frame:
 	ld hl, wTextboxFrame

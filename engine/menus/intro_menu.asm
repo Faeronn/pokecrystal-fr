@@ -262,7 +262,7 @@ SetDefaultBoxNames:
 	ret
 
 .Box:
-	db "BOX@"
+	db "BOITE@"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
@@ -533,10 +533,10 @@ Continue_LoadMenuHeader:
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER@"
+	db "JOUEUR@"
 	db "BADGES@"
 	db "#DEX@"
-	db "TIME@"
+	db "DUREE JEU@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
@@ -547,10 +547,10 @@ Continue_LoadMenuHeader:
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
+	db "JOUEUR <PLAYER>@"
 	db "BADGES@"
 	db " @"
-	db "TIME@"
+	db "DUREE JEU@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
