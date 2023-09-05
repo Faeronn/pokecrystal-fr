@@ -338,11 +338,11 @@ PlaceBattlersName:
 	jr PlaceCommandCharacter
 
 .enemy
-	ld de, EnemyText
+	ld de, wEnemyMonNickname
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld de, wEnemyMonNickname
+	ld de, EnemyText
 	jr PlaceCommandCharacter
 
 PlaceEnemysName::
@@ -405,7 +405,7 @@ RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db " ennemi @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
@@ -1034,10 +1034,6 @@ TextCommand_DAY::
 	ld e, l
 	pop hl
 	call PlaceString
-	ld h, b
-	ld l, c
-	ld de, .Day
-	call PlaceString
 	pop hl
 	ret
 
@@ -1050,11 +1046,10 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SUN@"
-.Mon:    db "MON@"
-.Tues:   db "TUES@"
-.Wednes: db "WEDNES@"
-.Thurs:  db "THURS@"
-.Fri:    db "FRI@"
-.Satur:  db "SATUR@"
-.Day:    db "DAY@"
+.Sun:    db "DIMANCHE@"
+.Mon:    db "LUNDI@"
+.Tues:   db "MARDI@"
+.Wednes: db "MERCREDI@"
+.Thurs:  db "JEUDI@"
+.Fri:    db "VENDREDI@"
+.Satur:  db "SAMEDI@"
