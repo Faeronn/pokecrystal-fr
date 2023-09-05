@@ -1,17 +1,17 @@
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "C'est un arbre à"
+	line "fruits."
 	done
 
 _HeyItsFruitText::
-	text "Hey! It's"
+	text "Hé! C'est un(e)"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
+	text "Obtenu:"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
@@ -23,8 +23,8 @@ _FruitPackIsFullText::
 	done
 
 _NothingHereText::
-	text "There's nothing"
-	line "here…"
+	text "Il n'y a rien"
+	line "ici..."
 	done
 
 _WhichApricornText::
@@ -157,19 +157,20 @@ _OakTimeWokeUpText::
 	text "<……><……><……><……><……><……>"
 	line "<……><……><……><……><……><……>"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	para "Zzz… Hm? Quoi…?"
+	line "Tu m'as réveillé!"
 
-	para "Will you check the"
-	line "clock for me?"
+	para "Mais quelle heure"
+	line "est-il?"
 	prompt
 
 _OakTimeWhatTimeIsItText::
-	text "What time is it?"
+	text "Quelle heure"
+	line "est-il?"
 	done
 
 _OakTimeWhatHoursText::
-	text "What?@"
+	text "Quoi?@"
 	text_end
 
 _OakTimeHoursQuestionMarkText::
@@ -177,7 +178,8 @@ _OakTimeHoursQuestionMarkText::
 	done
 
 _OakTimeHowManyMinutesText::
-	text "How many minutes?"
+	text "Combien de"
+	line "minutes?"
 	done
 
 _OakTimeWhoaMinutesText::
@@ -190,27 +192,27 @@ _OakTimeMinutesQuestionMarkText::
 
 _OakTimeOversleptText::
 	text "!"
-	line "I overslept!"
+	line "J'suis en retard!"
 	done
 
 _OakTimeYikesText::
 	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
+	line "Non! J'suis en"
+	cont "retard!"
 	done
 
 _OakTimeSoDarkText::
 	text "!"
-	line "No wonder it's so"
-	cont "dark!"
+	line "C'est normal qu'il"
+	cont "fasse nuit!"
 	done
 
 _OakTimeWhatDayIsItText::
-	text "What day is it?"
+	text "Quel jour?"
 	done
 
 _OakTimeIsItText::
-	text ", is it?"
+	text "?"
 	done
 
 ; Mobile Adapter
@@ -290,12 +292,12 @@ _PutAwayTheDecoText::
 	prompt
 
 _NothingToPutAwayText::
-	text "There's nothing to"
-	line "put away."
+	text "Il n'y a rien"
+	line "à ranger."
 	prompt
 
 _SetUpTheDecoText::
-	text "Set up the"
+	text "Installé:"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
@@ -314,12 +316,12 @@ _PutAwayAndSetUpText::
 	prompt
 
 _AlreadySetUpText::
-	text "That's already set"
-	line "up."
+	text "C'est déjà"
+	line "installé."
 	prompt
 
 _LookTownMapText::
-	text "It's the TOWN MAP."
+	text "C'est la CARTE."
 	done
 
 _LookPikachuPosterText::
@@ -503,22 +505,22 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "La CHRONIQUE PKMN"
 	done
 
 _OPT_IntroText2::
 	text_start
-	line "#MON TALK!"
+	line "du PROF.CHEN!"
 	done
 
 _OPT_IntroText3::
 	text_start
-	line "With me, MARY!"
+	line "Avec moi, LULA!"
 	done
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "CHEN: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
@@ -526,7 +528,7 @@ _OPT_OakText1::
 
 _OPT_OakText2::
 	text_start
-	line "may be seen around"
+	line "est près de:"
 	done
 
 _OPT_OakText3::
@@ -538,169 +540,169 @@ _OPT_OakText3::
 
 _OPT_MaryText1::
 	text_start
-	line "MARY: @"
+	line "LULA: @"
 	text_ram wStringBuffer1
-	text "'s"
+	text ""
 	done
 
 _OPT_SweetAdorablyText::
 	text_start
-	line "sweet and adorably"
+	line "est adorable et"
 	done
 
 _OPT_WigglySlicklyText::
 	text_start
-	line "wiggly and slickly"
+	line "est mou et"
 	done
 
 _OPT_AptlyNamedText::
 	text_start
-	line "aptly named and"
+	line "bien nommé et"
 	done
 
 _OPT_UndeniablyKindOfText::
 	text_start
-	line "undeniably kind of"
+	line "est vraiment"
 	done
 
 _OPT_UnbearablyText::
 	text_start
-	line "so, so unbearably"
+	line "est tellement"
 	done
 
 _OPT_WowImpressivelyText::
 	text_start
-	line "wow, impressively"
+	line "est super"
 	done
 
 _OPT_AlmostPoisonouslyText::
 	text_start
-	line "almost poisonously"
+	line "est toxique et"
 	done
 
 _OPT_SensuallyText::
 	text_start
-	line "ooh, so sensually"
+	line "est sensuel et"
 	done
 
 _OPT_MischievouslyText::
 	text_start
-	line "so mischievously"
+	line "est vicieux et"
 	done
 
 _OPT_TopicallyText::
 	text_start
-	line "so very topically"
+	line "est très"
 	done
 
 _OPT_AddictivelyText::
 	text_start
-	line "sure addictively"
+	line "est célèbre et"
 	done
 
 _OPT_LooksInWaterText::
 	text_start
-	line "looks in water is"
+	line "dans l'eau est"
 	done
 
 _OPT_EvolutionMustBeText::
 	text_start
-	line "evolution must be"
+	line "évolué est"
 	done
 
 _OPT_ProvocativelyText::
 	text_start
-	line "provocatively"
+	line "est provoquant et"
 	done
 
 _OPT_FlippedOutText::
 	text_start
-	line "so flipped out and"
+	line "est fou et"
 	done
 
 _OPT_HeartMeltinglyText::
 	text_start
-	line "heart-meltingly"
+	line "est trop chou et"
 	done
 
 _OPT_CuteText::
 	text_start
-	line "cute."
+	line "mignon."
 	done
 
 _OPT_WeirdText::
 	text_start
-	line "weird."
+	line "bizarre."
 	done
 
 _OPT_PleasantText::
 	text_start
-	line "pleasant."
+	line "agréable."
 	done
 
 _OPT_BoldSortOfText::
 	text_start
-	line "bold, sort of."
+	line "courageux."
 	done
 
 _OPT_FrighteningText::
 	text_start
-	line "frightening."
+	line "effrayant."
 	done
 
 _OPT_SuaveDebonairText::
 	text_start
-	line "suave & debonair!"
+	line "gracieux."
 	done
 
 _OPT_PowerfulText::
 	text_start
-	line "powerful."
+	line "puissant."
 	done
 
 _OPT_ExcitingText::
 	text_start
-	line "exciting."
+	line "vigoureux."
 	done
 
 _OPT_GroovyText::
 	text_start
-	line "groovy!"
+	line "cool!"
 	done
 
 _OPT_InspiringText::
 	text_start
-	line "inspiring."
+	line "exaltant."
 	done
 
 _OPT_FriendlyText::
 	text_start
-	line "friendly."
+	line "amical."
 	done
 
 _OPT_HotHotHotText::
 	text_start
-	line "hot, hot, hot!"
+	line "chaud!"
 	done
 
 _OPT_StimulatingText::
 	text_start
-	line "stimulating."
+	line "stimulant."
 	done
 
 _OPT_GuardedText::
 	text_start
-	line "guarded."
+	line "protégé."
 	done
 
 _OPT_LovelyText::
 	text_start
-	line "lovely."
+	line "charmant."
 	done
 
 _OPT_SpeedyText::
 	text_start
-	line "speedy."
+	line "rapide!"
 	done
 
 _OPT_PokemonChannelText::
@@ -1341,7 +1343,7 @@ _SavingRecordText::
 
 _ReceiveItemText::
 	text_ram wPlayerName
-	text " received"
+	text " reçoit"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"

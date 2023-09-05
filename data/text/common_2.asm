@@ -96,7 +96,7 @@ _NameRaterNamedText::
 
 Text_Gained::
 	text_ram wStringBuffer1
-	text " gained@"
+	text " gagne@"
 	text_end
 
 _BoostedExpPointsText::
@@ -113,12 +113,12 @@ _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 4
-	text " EXP. Points!"
+	text " Points EXP!"
 	prompt
 
 _GoMonText::
-	text "Go! @"
-	text_end
+	text " Go!"
+	done
 
 _DoItMonText::
 	text "Do it! @"
@@ -136,8 +136,8 @@ _YourFoesWeakGetmMonText::
 
 _BattleMonNicknameText::
 	text_ram wBattleMonNickname
-	text "!"
-	done
+	text "!@"
+	text_end
 
 _BattleMonNickCommaText::
 	text_ram wBattleMonNickname
@@ -514,19 +514,19 @@ _GotOffBikeText::
 	done
 
 _AskCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "Cet arbre peut"
+	line "être COUPE!"
 
 	para "Want to use CUT?"
 	done
 
 _CanCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "Cet arbre peut"
+	line "être COUPE!"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> trouve"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
@@ -539,11 +539,12 @@ _CantCarryItemText::
 	done
 
 _WhitedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> n'a plus"
+	line "de #MON en"
+	cont "forme!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> est"
+	line "hors-jeu!"
 	done
 
 _ItemfinderItemNearbyText::
@@ -605,24 +606,23 @@ _PackNoItemText::
 	done
 
 _AskThrowAwayText::
-	text "Throw away how"
-	line "many?"
+	text "En jeter"
+	line "combien?"
 	done
 
 _AskQuantityThrowAwayText::
-	text "Throw away @"
+	text "Jeter @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ThrewAwayText::
-	text "Threw away"
-	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text_start
+	line "à la poubelle!"
 	prompt
 
 _OakThisIsntTheTimeText::
@@ -663,8 +663,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Etes-vous un gar-"
+	line "çon ou une fille?"
 	done
 
 Text_BattleEffectActivate::
@@ -685,9 +685,9 @@ _BattleStatWentUpText::
 	prompt
 
 Text_BattleFoeEffectActivate::
-	text "<TARGET>'s"
-	line "@"
 	text_ram wStringBuffer2
+	text " de"
+	line "<TARGET>"
 	text_end
 
 	text_end ; unreferenced
@@ -698,7 +698,8 @@ _BattleStatSharplyFellText::
 	prompt
 
 _BattleStatFellText::
-	text " fell!"
+	text_pause
+	text "<SCROLL>diminue!"
 	prompt
 
 Text_BattleUser::
@@ -741,12 +742,13 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @"
+	line "lance"
+	cont "@"
 	text_end
 
 _UsedMove2Text::
 	text_start
-	line "used @"
+	line "lance @"
 	text_end
 
 _UsedInsteadText::
@@ -801,8 +803,8 @@ _BreedEggHatchText::
 	text_end ; unreferenced
 
 _BreedAskNicknameText::
-	text "Give a nickname to"
-	line "@"
+	text "Donner un surnom"
+	line "au @"
 	text_ram wStringBuffer1
 	text "?"
 	done
@@ -857,8 +859,8 @@ _BreedShowsInterestText::
 	prompt
 
 _EmptyMailboxText::
-	text "There's no MAIL"
-	line "here."
+	text "Il n'y a pas de"
+	line "LETTRE ici."
 	prompt
 
 _MailClearedPutAwayText::
@@ -925,7 +927,7 @@ _PCGottaHavePokemonText::
 	prompt
 
 _PCWhatText::
-	text "What?"
+	text "Que faire?"
 	done
 
 _PCMonHoldingMailText::
@@ -1082,11 +1084,11 @@ _LuckyNumberMatchPCText::
 	prompt
 
 _CaughtAskNicknameText::
-	text "Give a nickname to"
-	line "the @"
+	text "Donner un surnom"
+	line "au @"
 	text_ram wStringBuffer1
-	text " you"
-	cont "received?"
+	text ""
+	cont "reçu?"
 	done
 
 _PokecenterPCCantUseText::
@@ -1096,27 +1098,27 @@ _PokecenterPCCantUseText::
 	prompt
 
 _PlayersPCTurnOnText::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> allume"
+	line "le PC."
 	prompt
 
 _PlayersPCAskWhatDoText::
-	text "What do you want"
-	line "to do?"
+	text "Que voulez-vous"
+	line "faire?"
 	done
 
 _PlayersPCHowManyWithdrawText::
-	text "How many do you"
-	line "want to withdraw?"
+	text "Combien voulez-"
+	line "vous en retirer?"
 	done
 
 _PlayersPCWithdrewItemsText::
-	text "Withdrew @"
+	text "Retiré @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::
@@ -1125,21 +1127,21 @@ _PlayersPCNoRoomWithdrawText::
 	prompt
 
 _PlayersPCNoItemsText::
-	text "No items here!"
+	text "Pas d'objets ici!"
 	prompt
 
 _PlayersPCHowManyDepositText::
-	text "How many do you"
-	line "want to deposit?"
+	text "Combien voulez-"
+	line "vous en déposer?"
 	done
 
 _PlayersPCDepositItemsText::
-	text "Deposited @"
+	text "Deposé @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	prompt
 
 _PlayersPCNoRoomDepositText::
@@ -1148,27 +1150,28 @@ _PlayersPCNoRoomDepositText::
 	prompt
 
 _PokecenterPCTurnOnText::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> allume"
+	line "le PC."
 	prompt
 
 _PokecenterPCWhoseText::
-	text "Access whose PC?"
+	text "Accéder à quel PC?"
 	done
 
 _PokecenterBillsPCText::
-	text "BILL's PC"
-	line "accessed."
+	text "PC de LEO"
+	line "connecté."
 
-	para "#MON Storage"
-	line "System opened."
+	para "Gestion Stocks"
+	line "de #MON."
 	prompt
 
 _PokecenterPlayersPCText::
-	text "Accessed own PC."
+	text "PC personnel"
+	line "connecté."
 
-	para "Item Storage"
-	line "System opened."
+	para "Gestion Stocks"
+	line "d'objets."
 	prompt
 
 _PokecenterOaksPCText::
@@ -1180,8 +1183,8 @@ _PokecenterOaksPCText::
 	prompt
 
 _PokecenterPCOaksClosedText::
-	text "…"
-	line "Link closed…"
+	text "..."
+	line "Déconnexion..."
 	done
 
 _OakPCText1::
@@ -1384,26 +1387,25 @@ _StartMenuContestEndText::
 	done
 
 _ItemsTossOutHowManyText::
-	text "Toss out how many"
+	text "Jeter combien de"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ItemsThrowAwayText::
-	text "Throw away @"
+	text "Jeter @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ItemsDiscardedText::
-	text "Discarded"
-	line "@"
 	text_ram wStringBuffer1
-	text "(S)."
+	text_start
+	line "à la poubelle."
 	prompt
 
 _ItemsTooImportantText::
@@ -1418,24 +1420,23 @@ _ItemsOakWarningText::
 	done
 
 _PokemonSwapItemText::
-	text "Took @"
-	text_ram wMonOrItemNameBuffer
-	text "'s"
-	line "@"
+	text "Pris @"
 	text_ram wStringBuffer1
-	text " and"
+	text ""
+	line "de @"
+	text_ram wMonOrItemNameBuffer
+	text " et"
 
-	para "made it hold"
+	para "fait tenir"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _PokemonHoldItemText::
-	text "Made @"
 	text_ram wMonOrItemNameBuffer
-	text_start
-	line "hold @"
+	text " tient"
+	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
@@ -1447,8 +1448,8 @@ _PokemonRemoveMailText::
 
 _PokemonNotHoldingText::
 	text_ram wMonOrItemNameBuffer
-	text " isn't"
-	line "holding anything."
+	text " ne"
+	line "tient rien."
 	prompt
 
 _ItemStorageFullText::
@@ -1457,23 +1458,23 @@ _ItemStorageFullText::
 	prompt
 
 _PokemonTookItemText::
-	text "Took @"
+	text "Pris @"
 	text_ram wStringBuffer1
 	text_start
-	line "from @"
+	line "de @"
 	text_ram wMonOrItemNameBuffer
 	text "."
 	prompt
 
 _PokemonAskSwapItemText::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "already holding"
+	text ""
+	line "tient déjà"
 
 	para "@"
 	text_ram wStringBuffer1
 	text "."
-	line "Switch items?"
+	line "Changer d'objet?"
 	done
 
 _ItemCantHeldText::
@@ -1518,31 +1519,30 @@ _PokemonNotEnoughHPText::
 	prompt
 
 _MayRegisterItemText::
-	text "An item in your"
-	line "PACK may be"
+	text "Un objet du SAC"
+	line "peut être enregis-"
 
-	para "registered for use"
-	line "on SELECT Button."
+	para "tré comme fonction"
+	line "du bouton SELECT."
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Bonjour! Désolé de"
+	line "l'attente!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Bienvenue dans le"
+	line "monde de #MON!"
 
-	para "My name is OAK."
+	para "Mon nom est CHEN."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Mais on m'appelle"
+	line "le PROF.#MON."
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Ce monde est peu-"
+	line "plé de créatures"
+	cont "appelées #MON.@"
 	text_end
 
 _OakText3::
@@ -1552,26 +1552,28 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Humains et #MON"
+	line "vivent en parfaite"
+	cont "harmonie..."
 
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Certains jouent"
+	line "avec les #MON,"
+	cont "d'autres font des"
+	cont "combats avec eux."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Mais il reste"
+	line "beaucoup à appren-"
+	cont "dre sur nos amis"
+	cont "les #MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "De nombreux mystè-"
+	line "res planent à leur"
+	cont "sujet."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "Et c'est pourquoi"
+	line "j'étudie les"
+	cont "#MON tous les"
+	cont "jours."
 	prompt

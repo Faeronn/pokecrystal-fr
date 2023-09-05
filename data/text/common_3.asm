@@ -1,28 +1,25 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Heu... C'est quoi"
+	line "ton nom?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, ta quête"
+	line "est sur le point"
+	cont "de commencer."
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Joies et périls"
+	line "paveront ta"
+	cont "route..."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Un monde de rêve,"
+	line "de dangers et de"
+	
+	para "#MON t'attend!"
+	line "En avant!"
 
-	para "A world of dreams"
-	line "and adventures"
-
-	para "with #MON"
-	line "awaits! Let's go!"
-
-	para "I'll be seeing you"
-	line "later!"
+	para "..."
+	line "A plus tard."
 	done
 
 _ClockTimeMayBeWrongText::
@@ -185,30 +182,30 @@ _MobileBattleRemainingTimeText::
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to"
-	line "save the game?"
+	text "Voulez-vous sauve-"
+	line "garder la partie?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "SAVING… DON'T TURN"
-	line "OFF THE POWER."
+	text "SAUVEGARDE..."
+	line "NE PAS ETEINDRE."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> saved"
-	line "the game."
+	text "<PLAYER> sauve"
+	line "la partie."
 	done
 
 _AlreadyASaveFileText::
-	text "There is already a"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Il y a déjà une"
+	line "sauvegarde. La"
+	cont "remplacer?"
 	done
 
 _AnotherSaveFileText::
-	text "There is another"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Il y a une autre"
+	line "sauvegarde. La"
+	cont "remplacer?"
 	done
 
 _SaveFileCorruptedText::
@@ -217,15 +214,17 @@ _SaveFileCorruptedText::
 	prompt
 
 _ChangeBoxSaveText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved. OK?"
+	text "En changeant de"
+	line "BOITE #MON,"
+	cont "les données sont"
+	cont "sauvegardées. OK?"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Each time you move"
-	line "a #MON, data"
-	cont "will be saved. OK?"
+	text "A chaque déplace-"
+	line "ment de #MON,"
+	cont "les données sont"
+	cont "sauvegardées. OK?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
@@ -255,18 +254,18 @@ _CoordinatesEventText::
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> received"
+	text "<PLAYER> reçoit"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the"
+	text "<PLAYER> met"
 	line "@"
 	text_ram wStringBuffer1
-	text " in"
-	cont "the @"
+	text " dans"
+	cont "@"
 	text_ram wStringBuffer3
 	text "."
 	prompt
@@ -484,7 +483,7 @@ _MartFinalPriceText::
 	text " @"
 	text_ram wStringBuffer2
 	text "(S)"
-	line "will be ¥@"
+	line "POUR @¥"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
@@ -626,7 +625,7 @@ _NothingToSellText::
 	prompt
 
 _MartSellHowManyText::
-	text "How many?"
+	text "Combien?"
 	done
 
 _MartSellPriceText::
@@ -639,18 +638,18 @@ _MartSellPriceText::
 	done
 
 _MartWelcomeText::
-	text "Welcome! How may I"
-	line "help you?"
+	text "Bienvenue! En quoi"
+	line "puis-je t'aider?"
 	done
 
 _MartThanksText::
-	text "Here you are."
-	line "Thank you!"
+	text "Voilà."
+	line "Merci!"
 	done
 
 _MartNoMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Tu n'as pas assez"
+	line "d'argent."
 	done
 
 _MartPackFullText::
@@ -664,12 +663,12 @@ _MartCantBuyText::
 	prompt
 
 _MartComeAgainText::
-	text "Please come again!"
+	text "A la prochaine!"
 	done
 
 _MartAskMoreText::
-	text "Can I do anything"
-	line "else for you?"
+	text "As-tu besoin"
+	line "d'autre chose?"
 	done
 
 _MartBoughtText::
@@ -884,7 +883,7 @@ _PhoneWrongNumberText::
 	done
 
 _PhoneClickText::
-	text "Click!"
+	text "Clic!"
 	done
 
 _PhoneEllipseText::
@@ -897,8 +896,8 @@ _PhoneOutOfAreaText::
 	done
 
 _PhoneJustTalkToThemText::
-	text "Just go talk to"
-	line "that person!"
+	text "Va parler à cette"
+	line "personne!"
 	done
 
 _PhoneThankYouText::
@@ -935,7 +934,7 @@ _ClearAllSaveDataText::
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " learned"
+	text " apprend"
 	line "@"
 	text_ram wStringBuffer2
 	text "!@"
@@ -1065,13 +1064,13 @@ _GearOutOfServiceText::
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Whom do you want"
-	line "to call?"
+	text "Qui voulez-vous"
+	line "appeler?"
 	done
 
 _PokegearPressButtonText::
-	text "Press any button"
-	line "to exit."
+	text "Presser un bouton"
+	line "pour sortir."
 	done
 
 _PokegearAskDeleteText::
@@ -1368,8 +1367,8 @@ _ItemBelongsToSomeoneElseText::
 	prompt
 
 _ItemWontHaveEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Ca n'a aucun"
+	line "effet."
 	prompt
 
 _BallBlockedText::
@@ -1477,13 +1476,13 @@ _DeleterAskWhichMonText::
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text ","
+	line "OK?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "OK?"
 	done
 
 _TimesetAskDSTText::
