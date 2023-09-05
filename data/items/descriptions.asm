@@ -291,8 +291,8 @@ MoonStoneDesc:
 	next "kinds of #MON.@"
 
 AntidoteDesc:
-	db   "Cures poisoned"
-	next "#MON.@"
+	db   "Soigne les #MON"
+	next "empoisonnés.@"
 
 BurnHealDesc:
 	db   "Heals burned"
@@ -303,12 +303,12 @@ IceHealDesc:
 	next "#MON.@"
 
 AwakeningDesc:
-	db   "Awakens sleeping"
-	next "#MON.@"
+	db   "Réveille les POKé-"
+	next "MON endormis.@"
 
 ParlyzHealDesc:
-	db   "Heals paralyzed"
-	next "#MON.@"
+	db   "Soigne les #MON"
+	next "paralysés.@"
 
 FullRestoreDesc:
 	db   "Fully restores HP"
