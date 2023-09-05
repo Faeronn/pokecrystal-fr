@@ -1654,7 +1654,7 @@ HandleScreens:
 .Your:
 	db "Your@"
 .Enemy:
-	db "Enemy@"
+	db "Ennemi@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -7673,9 +7673,9 @@ SendOutMonText:
 	jp BattleTextbox
 
 GoMonText:
-	text_far _GoMonText
+	text_far _BattleMonNicknameText
 	text_asm
-	jr PrepareBattleMonNicknameText
+	jr PrepareGoMonText
 
 DoItMonText:
 	text_far _DoItMonText
@@ -7693,6 +7693,15 @@ YourFoesWeakGetmMonText:
 PrepareBattleMonNicknameText:
 	ld hl, BattleMonNicknameText
 	ret
+
+PrepareGoMonText:
+	ld hl, CustomGoMonText
+	ret
+
+CustomGoMonText:
+	text_far _GoMonText
+	text_end
+
 
 BattleMonNicknameText:
 	text_far _BattleMonNicknameText
@@ -8589,11 +8598,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "RECORD de <PLAYER>@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "RES GAGNE PERDU NUL@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "TOT GAGNE PERDU NUL@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]

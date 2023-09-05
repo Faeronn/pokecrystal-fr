@@ -320,7 +320,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " SWITCH▶@"
+	db "CHANGER▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -1248,9 +1248,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
+	db   "APPELER"
 	next "DELETE"
-	next "CANCEL"
+	next "RETOUR"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1261,8 +1261,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "APPELER"
+	next "RETOUR"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1743,7 +1743,7 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "CHRONIQUE<PK><MN> CHEN@"
 PokedexShowName:      db "#DEX Show@"
 PokemonMusicName:     db "#MON Music@"
 LuckyChannelName:     db "Lucky Channel@"

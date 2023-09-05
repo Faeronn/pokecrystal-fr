@@ -166,8 +166,8 @@ Pack:
 .MenuData_1:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "USE@"
-	db "QUIT@"
+	db "UTIL@"
+	db "RET@"
 
 .Jumptable1:
 	dw .UseItem
@@ -332,17 +332,17 @@ Jumptable_UseGiveTossRegisterQuit:
 
 MenuHeader_UsableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 4 ; items
-	db "USE@"
-	db "GIVE@"
-	db "TOSS@"
-	db "QUIT@"
+	db "UTIL@"
+	db "DON@"
+	db "JETER@"
+	db "RET@"
 
 Jumptable_UseGiveTossQuit:
 	dw UseItem
@@ -804,15 +804,15 @@ TMHMSubmenu:
 
 .UsableMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .UsableMenuData
 	db 1 ; default option
 
 .UsableMenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "USE@"
-	db "QUIT@"
+	db "UTIL@"
+	db "RET@"
 
 .UsableJumptable:
 	dw .Use

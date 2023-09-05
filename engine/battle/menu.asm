@@ -30,7 +30,7 @@ CommonBattleMenu:
 
 BattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 8, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 6, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -42,10 +42,10 @@ BattleMenuHeader:
 	dbw BANK(@), NULL
 
 .Text:
-	db "FIGHT@"
+	db "ATTAQ@"
 	db "<PKMN>@"
-	db "PACK@"
-	db "RUN@"
+	db "SAC@"
+	db "FUITE@"
 
 SafariBattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
