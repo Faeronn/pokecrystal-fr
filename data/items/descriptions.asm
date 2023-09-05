@@ -319,16 +319,16 @@ MaxPotionDesc:
 	next "#MON HP.@"
 
 HyperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 200.@"
+	db   "Restaure 200 PV"
+	next "d'un #MON.@"
 
 SuperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Restaure 50 PV"
+	next "d'un #MON.@"
 
 PotionDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Restaure 20 PV"
+	next "d'un #MON.@"
 
 EscapeRopeDesc:
 	db   "Use for escaping"
@@ -920,8 +920,8 @@ UpGradeDesc:
 	next "made by SILPH CO.@"
 
 BerryDesc:
-	db   "A self-restore"
-	next "item. (10HP, HOLD)@"
+	db   "Auto-soin."
+	next "(10PV, TENU)@"
 
 GoldBerryDesc:
 	db   "A self-restore"
