@@ -8,10 +8,10 @@ BattleText_PlayerPickedUpPayDayMoney:
 	prompt
 
 WildPokemonAppearedText:
-	text "Wild @"
+	text "Un @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "appeared!"
+	line "sauvage apparaît!"
 	prompt
 
 HookedPokemonAttackedText:
@@ -160,10 +160,10 @@ BattleText_TheSandstormSubsided:
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+	text "Le @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fainted!"
+	line "ennemi est K.O!"
 	prompt
 
 GotMoneyForWinningText:
@@ -266,7 +266,8 @@ BattleText_TheresNoEscapeFromTrainerBattle:
 	prompt
 
 BattleText_GotAwaySafely:
-	text "Got away safely!"
+	text "Vous prenez la"
+	line "fuite!"
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:
@@ -288,7 +289,7 @@ BattleText_UserHurtBySpikes:
 
 RecoveredUsingText:
 	text "<TARGET>"
-	line "recovered using a"
+	line "récupère avec"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -309,8 +310,8 @@ BattleText_ItemsCantBeUsedHere:
 
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNickname
-	text_start
-	line "is already out."
+	text " est"
+	line "déjà au combat."
 	prompt
 
 BattleText_MonCantBeRecalled:
@@ -342,8 +343,8 @@ BattleText_TargetsEncoreEnded:
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
-	text " grew to"
-	line "level @"
+	text " monte"
+	line "au niveau @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79
@@ -730,19 +731,17 @@ WasFrozenText:
 	prompt
 
 WontRiseAnymoreText:
-	text "<USER>'s"
-	line "@"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "rise anymore!"
+	text " de"
+	line "<USER>"
+	cont "n'augmente plus!"
 	prompt
 
 WontDropAnymoreText:
-	text "<TARGET>'s"
-	line "@"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "drop anymore!"
+	text " de"
+	line "<USER>"
+	cont "ne diminue plus!"
 	prompt
 
 FledFromBattleText::
@@ -821,7 +820,7 @@ SubFadedText:
 
 MimicLearnedMoveText:
 	text "<USER>"
-	line "learned"
+	line "apprend"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -882,12 +881,12 @@ ReflectEffectText:
 	prompt
 
 NothingHappenedText:
-	text "But nothing"
-	line "happened."
+	text "Mais rien ne se"
+	line "passe."
 	prompt
 
 ButItFailedText:
-	text "But it failed!"
+	text "Mais cela échoue!"
 	prompt
 
 ItFailedText:
