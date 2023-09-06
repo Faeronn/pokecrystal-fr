@@ -157,7 +157,7 @@ _OakTimeWokeUpText::
 	text "<……><……><……><……><……><……>"
 	line "<……><……><……><……><……><……>"
 
-	para "Zzz… Hm? Quoi…?"
+	para "Zzz... Hm? Quoi...?"
 	line "Tu m'as réveillé!"
 
 	para "Mais quelle heure"
