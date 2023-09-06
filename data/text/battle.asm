@@ -582,13 +582,13 @@ RegainedHealthText:
 	prompt
 
 AttackMissedText:
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "rate son attaque!"
 	prompt
 
 AttackMissed2Text:
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "rate son attaque!"
 	prompt
 
 CrashedText:

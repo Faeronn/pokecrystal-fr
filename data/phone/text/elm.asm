@@ -10,11 +10,11 @@ ElmPhoneHealYourMonText:
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAY_G>?"
+	text "<PLAY_G>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "As-tu rencontré M."
+	line "#MON? Super!"
+	cont "Reviens vite!"
 	done
 
 ElmPhonePokemonStolenText:

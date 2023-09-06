@@ -356,25 +356,27 @@ MrPokemonText_Disappointed:
 	done
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "It's packed with"
-	line "foreign magazines."
+	text "Il y a plein de"
+	line "magazines"
+	cont "étrangers."
 
-	para "Can't even read"
-	line "their titles…"
+	para "On ne comprend"
+	line "même pas les "
+	cont "titres."
 	done
 
 MrPokemonsHouse_BrokenComputerText:
-	text "It's a big com-"
-	line "puter. Hmm. It's"
-	cont "broken."
+	text "Un gros ordinateur"
+	line "tout cassé..."
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "A whole pile of"
-	line "strange coins!"
+	text "Un tas de pièces"
+	line "bizarres!"
 
-	para "Maybe they're from"
-	line "another country…"
+	para "Elles sont peut-"
+	line "être d'un autre"
+	cont "pays..."
 	done
 
 MrPokemonsHouse_MapEvents:

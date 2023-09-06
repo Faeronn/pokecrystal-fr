@@ -698,8 +698,8 @@ _BattleStatSharplyFellText::
 	prompt
 
 _BattleStatFellText::
-	text_pause
-	text "<SCROLL>diminue!"
+	text_start
+	cont "diminue!"
 	prompt
 
 Text_BattleUser::
