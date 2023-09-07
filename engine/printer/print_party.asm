@@ -112,10 +112,10 @@ GBPrinterString_PrinterError1:
 	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   " Printer Error 2"
+	db   " ERREUR PRINTER 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Voir le manuel du"
+	next "Game Boy Printer."
 	db   "@"
 GBPrinterString_PrinterError3:
 	db   " Printer Error 3"
