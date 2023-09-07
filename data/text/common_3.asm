@@ -23,28 +23,28 @@ _OakText7::
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "L'horloge est"
+	line "peut-être fausse."
 
-	para "Please reset the"
-	line "time."
+	para "Régler l'heure"
+	line "s.v.p."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the"
-	line "Control Pad."
+	text "Régler avec la"
+	line "manette."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "Choix:   Bouton A"
+	line "Retour:  Bouton B"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Est-ce correct?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been"
-	line "reset."
+	text "L'horloge a été"
+	line "réinitialisée."
 	done
 
 _LinkTimeoutText::
@@ -909,22 +909,25 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
-	line "Select CONTINUE &"
-	cont "reset settings."
+	text "Mot de passe OK."
+	line "Choisir CONTINUER"
+	cont "& réinitialiser"
+	cont "les paramètres."
 	prompt
 
 _PasswordWrongText::
-	text "Wrong password!"
+	text "Mauvais mot de"
+	line "passe!"
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?"
+	text "Réinitialiser"
+	line "l'horloge?"
 	done
 
 _PasswordAskEnterText::
-	text "Please enter the"
-	line "password."
+	text "Entrer le mot de"
+	line "passe."
 	done
 
 _ClearAllSaveDataText::
