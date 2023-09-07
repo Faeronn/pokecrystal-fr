@@ -767,7 +767,7 @@ ChooseAMalePKMNString: ; unreferenced
 	db "Choose a ♂<PK><MN>.@"
 
 ToWhichPKMNString:
-	db "To which <PK><MN>?@"
+	db "A quel <PK><MN>?@"
 
 YouHaveNoPKMNString:
 	db "You have no <PK><MN>!@"

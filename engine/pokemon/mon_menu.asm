@@ -1085,7 +1085,7 @@ MoveScreen2DMenuData:
 	db D_UP | D_DOWN | D_LEFT | D_RIGHT | A_BUTTON | B_BUTTON ; accepted buttons
 
 String_MoveWhere:
-	db "Where?@"
+	db "Où?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1224,7 +1224,7 @@ String_MoveType_Top:
 String_MoveType_Bottom:
 	db "│TYPE/└@"
 String_MoveAtk:
-	db "ATK/@"
+	db "FOR/@"
 String_MoveNoPower:
 	db "---@"
 

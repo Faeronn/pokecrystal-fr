@@ -141,7 +141,7 @@ NamingScreen:
 	ret
 
 .RivalNameString:
-	db "RIVAL'S NAME?@"
+	db "NOM DU RIVAL?@"
 
 .Mom:
 	ld de, MomSpriteGFX
