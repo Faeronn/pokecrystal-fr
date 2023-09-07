@@ -1214,10 +1214,10 @@ _BallSoCloseText::
 	prompt
 
 Text_BallCaught::
-	text "Gotcha! @"
+	text "Et hop! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was caught!@"
+	line "est attrapé!@"
 	sound_caught_mon
 	text_end
 
@@ -1399,7 +1399,7 @@ _BallBoxFullText::
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> used the@"
+	text "<PLAYER> utilise:@"
 	text_low
 	text_ram wStringBuffer2
 	text "."

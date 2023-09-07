@@ -1537,48 +1537,49 @@ _NPCTradeAfterText4::
 	done
 
 _MomLeavingText1::
-	text "Wow, that's a cute"
+	text "Oh! Quel joli"
 	line "#MON."
 
-	para "Where did you get"
-	line "it?"
+	para "Où l'as-tu trouvé?"
+	line "Hein? Où ça?"
 
-	para "…"
+	para "........."
 
-	para "So, you're leaving"
-	line "on an adventure…"
+	para "Alors t'aimes"
+	line "l'aventure, quoi."
 
 	para "OK!"
-	line "I'll help too."
+	line "J'vais t'aider."
 
-	para "But what can I do"
-	line "for you?"
+	para "Mais..."
+	line "Que faire?"
 
-	para "I know! I'll save"
-	line "money for you."
+	para "Je sais! Je vais"
+	line "économiser pour"
+	cont "toi."
 
-	para "On a long journey,"
-	line "money's important."
+	para "L'argent, c'est"
+	line "important."
 
-	para "Do you want me to"
-	line "save your money?"
+	para "Veux-tu que j'éco-"
+	line "nomise pour toi?"
 	done
 
 _MomLeavingText2::
-	text "OK, I'll take care"
-	line "of your money."
+	text "OK, je vais m'oc-"
+	line "cuper de tes sous."
 
-	para "<……><……><……>"
+	para ".................."
 	prompt
 
 _MomLeavingText3::
-	text "Be careful."
+	text "Fais attention."
 
-	para "#MON are your"
-	line "friends. You need"
-	cont "to work as a team."
+	para "Les #MON sont"
+	line "tes amis. Il faut"
+	cont "les aimer aussi."
 
-	para "Now, go on!"
+	para "En route!"
 	done
 
 _MomIsThisAboutYourMoneyText::

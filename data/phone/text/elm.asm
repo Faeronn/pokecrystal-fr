@@ -18,24 +18,22 @@ ElmPhoneSawMrPokemonText:
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAY_G>? I'm very"
-	line "upset now."
+	text "<PLAY_G>? Je"
+	line "suis bien triste."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Un #MON nous"
+	line "a été volé."
 
-	para "How could anyone"
-	line "do that?"
+	para "Qui a bien pu"
+	line "faire ça?"
 	done
 
 ElmPhoneCheckingTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "<PLAY_G>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
-
-	para "appear to be a"
-	line "#MON EGG."
+	para "On examine l'OEUF."
+	line "C'est bien un OEUF"
+	cont "de #MON."
 	done
 
 ElmPhoneAssistantText:
@@ -130,17 +128,17 @@ ElmPhoneDiscoveredPokerusText:
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+	text "<PLAY_G>?"
+	line "C'est..."
+	cont "C'est terrible!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "C'est..."
+	line "AFFREUX!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Que faire?"
+	line "Oh, non..."
 
-	para "Please get back"
-	line "here now!"
+	para "Reviens vite!"
 	done
 
 ElmPhoneEggAssistantText:

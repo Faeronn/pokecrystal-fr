@@ -64,16 +64,15 @@ PlayersNeighborsDaughterText:
 	done
 
 PlayersNeighborText:
-	text "My daughter is"
-	line "adamant about"
+	text "Ma fille veut"
+	line "devenir l'assis-"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "tante du PROF."
+	line "ORME."
 
-	para "She really loves"
+	para "Elle adoooore les"
 	line "#MON!"
-
-	para "But then, so do I!"
+	cont "Et moi aussi!"
 	done
 
 PlayerNeighborRadioText1:
@@ -94,7 +93,7 @@ PlayerNeighborRadioText3:
 
 PlayerNeighborRadioText4:
 	text "#MON!"
-	line "ANTENNE #MON…"
+	line "ANTENNE #MON..."
 	done
 
 PlayersNeighborsHouse_MapEvents:

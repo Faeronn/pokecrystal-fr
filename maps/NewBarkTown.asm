@@ -187,7 +187,7 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Oh! Ton POKéMATOS"
+	text "Oh! Ton #MATOS"
 	line "est balèze!"
 
 	para "C'est ta mère qui"
@@ -223,20 +223,20 @@ Text_YourMonIsAdorable:
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Salut <PLAY_G>!"
+	line "Tu pars déjà?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Tu devrais préve-"
+	line "nir ta petite"
+	cont "maman."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Appelle ta maman"
+	line "avec ton #-"
+	cont "MATOS et donne-lui"
 
-	para "let her know how"
-	line "you're doing."
+	para "de tes nouvelles."
 	done
 
 Text_ElmDiscoveredNewMon:
@@ -253,11 +253,11 @@ NewBarkTownRivalText1:
 
 	para "Voici donc le cé-"
 	line "lèbre LABO #MON"
-	cont "du PROF.ORME…"
+	cont "du PROF.ORME..."
 	done
 
 NewBarkTownRivalText2:
-	text "…Mais kess-tu"
+	text "...Mais kess-tu"
 	line "mates?"
 	done
 

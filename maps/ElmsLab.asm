@@ -954,88 +954,90 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
-	line "is terrible…"
+	text "ORME: <PLAY_G>,"
+	line "c'est affreux..."
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Au fait, quelle"
+	line "est la grande"
+	cont "découverte de"
+	cont "M.#MON?"
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	text "<PLAYER> confie"
+	line "l'OEUF MYSTERE au"
+	cont "PROF.ORME."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "PROF.ORME: Ca?"
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "Mais... C'est un"
+	line "OEUF de #MON?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Si c'est un vrai,"
+	line "c'est une grande"
+	cont "découverte!"
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "ORME: Quoi?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "Le PROF.CHEN t'a"
+	line "donné un #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAY_G>, c'est"
+	line "vrai? C-c'est"
+	cont "incroyable!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Il a l'oeil pour"
+	line "trouver les bons"
+	cont "dresseurs pleins"
+	cont "d'avenir."
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "<PLAY_G>..."
+	line "Tu dois avoir les"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "épaules pour être"
+	line "MAITRE."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Tu as aussi l'air"
+	line "de bien t'entendre"
+	cont "avec les #MON."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Tu devrais te lan-"
+	line "cer à la conquête"
+	cont "des ARENES."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "La plus proche est"
+	line "celle de MAUVILLE."
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAY_G>. The"
-	line "road to the"
+	text "...<PLAY_G>."
+	line "La route vers la"
 
-	para "championship will"
-	line "be a long one."
+	para "victoire est"
+	line "longue."
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Va parler à ta"
+	line "maman avant de"
+	cont "partir."
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "PROF.ORME: N'aban-"
+	line "donne pas!"
 
-	para "I learn anything"
-	line "about that EGG!"
+	para "Je t'appelle si"
+	line "j'ai du nouveau"
+	cont "sur cet OEUF."
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAY_G>?"
+	text "ORME: <PLAY_G>?"
 	line "Didn't you meet my"
 	cont "assistant?"
 
@@ -1051,7 +1053,7 @@ ElmAideHasEggText:
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
+	text "ORME: Hey, has that"
 	line "EGG changed any?"
 	done
 
@@ -1064,7 +1066,7 @@ ElmThoughtEggHatchedText:
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, you"
+	text "ORME: <PLAY_G>, you"
 	line "look great!"
 	done
 
@@ -1246,47 +1248,55 @@ AideText_TheftTestimony:
 AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
-	para "Use these on your"
-	line "#DEX quest!"
+	para "Utilise ceci pour"
+	line "compléter ton"
+	cont "#DEX!"
 	done
 
 AideText_ExplainBalls:
-	text "To add to your"
-	line "#DEX, you have"
-	cont "to catch #MON."
+	text "Pour compléter ton"
+	line "#DEX, tu"
+	cont "dois attraper des"
+	cont "#MON."
 
-	para "Throw # BALLS"
-	line "at wild #MON"
-	cont "to get them."
+	para "Lance des"
+	line "# BALLS sur"
+	cont "les #MON"
+	cont "sauvages pour les"
+	cont "attraper."
 	done
 
 ElmsLabOfficerText1:
-	text "I heard a #MON"
-	line "was stolen here…"
+	text "J'ai entendu dire"
+	line "qu'un #MON"
+	cont "a été volé ici..."
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.ELM."
+	para "Je viens de rece-"
+	line "voir des infos"
+	cont "du PROF.ORME."
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair…"
+	para "Apparemment,"
+	line "c'était un jeune"
+	cont "garnement aux"
+	cont "long cheveux"
+	cont "rouges..."
+	cont "Racaille-racaille!"
 
-	para "What?"
+	para "Quuooi?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "Tu as combattu un"
+	line "dresseur comme ça?"
 
-	para "Did you happen to"
-	line "get his name?"
+	para "As-tu retenu"
+	line "son nom?"
 	done
 
 ElmsLabOfficerText2:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "Il s'appelait"
+	line "donc <RIVAL>."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Merci pour ta"
+	line "coopération!"
 	done
 
 ElmsLabWindowText1:
@@ -1298,8 +1308,7 @@ ElmsLabWindowText1:
 	done
 
 ElmsLabWindowText2:
-	text "He broke in"
-	line "through here!"
+	text "Il a déboulé ici!"
 	done
 
 ElmsLabTravelTip1Text:

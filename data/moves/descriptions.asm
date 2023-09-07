@@ -396,8 +396,8 @@ HornDrillDescription:
 	next "drill attack.@"
 
 TackleDescription:
-	db   "A full-body charge"
-	next "attack.@"
+	db   "Une attaque en"
+	next "charge.@"
 
 BodySlamDescription:
 	db   "An attack that may"
@@ -436,8 +436,8 @@ PinMissileDescription:
 	next "strike 2-5 times.@"
 
 LeerDescription:
-	db   "Reduces the foe's"
-	next "DEFENSE.@"
+	db   "Baisse la DEFENSE"
+	next "de la cible.@"
 
 BiteDescription:
 	db   "An attack that may"
@@ -472,8 +472,8 @@ AcidDescription:
 	next "lower DEFENSE.@"
 
 EmberDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Peut infliger"
+	next "une brûlure.@"
 
 FlamethrowerDescription:
 	db   "An attack that may"
@@ -696,8 +696,8 @@ MinimizeDescription:
 	next "ness.@"
 
 SmokescreenDescription:
-	db   "Lowers the foe's"
-	next "accuracy.@"
+	db   "Baisse la préci-"
+	next "sion de la cible.@"
 
 ConfuseRayDescription:
 	db   "A move that causes"

@@ -276,8 +276,8 @@ GreatBallDesc:
 	next "cent success rate.@"
 
 PokeBallDesc:
-	db   "An item for catch-"
-	next "ing #MON.@"
+	db   "Objet pour captu-"
+	next "rer les #MON.@"
 
 TeruSama1Desc:
 	db   "?@"
@@ -547,7 +547,7 @@ QuickClawDesc:
 	next "ratio. (HOLD)@"
 
 PsnCureBerryDesc:
-	db   "un antidote auto-"
+	db   "Un antidote auto-"
 	next "matique. (TENU)@"
 
 GoldLeafDesc:

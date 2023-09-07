@@ -234,7 +234,7 @@ ElmsLookingForYouText:
 MomGivesPokegearText:
 	text "Le MATOS #MON,"
 	line "ou simplement"
-	cont "POKéMATOS..."
+	cont "#MATOS..."
 
 	para "...est primordial"
 	line "si tu veux devenir"
@@ -267,7 +267,7 @@ ComeHomeForDSTText:
 
 KnowTheInstructionsText:
 	text "As-tu allumé le"
-	line "POKéMATOS et"
+	line "#MATOS et"
 
 	para "séléctionné"
 	line "l'icône TELEPHONE?"
@@ -278,7 +278,7 @@ DontKnowTheInstructionsText:
 	line "manuel."
 
 	para "Allume le "
-	line "POKéMATOS et"
+	line "#MATOS et"
 	cont "sélectionne"
 	cont "l'icône TELEPHONE."
 	done
@@ -321,10 +321,9 @@ SoWhatWasProfElmsErrandText:
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, courage!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Je suis avec toi!"
 	done
 
 NeighborMornIntroText:

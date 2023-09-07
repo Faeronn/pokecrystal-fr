@@ -256,40 +256,41 @@ CatchingTutorialBoxFullText:
 	done
 
 CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
+	text "J'te connais toi."
+	line "Combien de #MON"
+	cont "as-tu attrapés?"
 
-	para "many #MON have"
-	line "you caught?"
-
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Veux-tu que je te"
+	line "montre comment at-"
+	cont "traper des"
+	cont "#MON?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "Voilà comment il"
+	line "faut faire."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Si tu affaiblis"
+	line "d'abord le #-"
+	cont "MON, il sera plus"
+	cont "facile à attraper."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. Bon."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "En tout cas, tu"
+	line "dois beaucoup mar-"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "cher pour attraper"
+	line "des #MON."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Hein? Tu veux que"
+	line "je te montre com-"
+	cont "ment attraper des"
+	cont "#MON?"
 	done
 
 Route29YoungsterText:

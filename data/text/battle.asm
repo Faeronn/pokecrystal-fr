@@ -37,7 +37,7 @@ WildCelebiAppearedText:
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "wants to battle!"
+	line "veut se battre!"
 	prompt
 
 BattleText_WildFled:
@@ -167,15 +167,15 @@ BattleText_EnemyMonFainted:
 	prompt
 
 GotMoneyForWinningText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> remporte"
+	line "@"
 	text_decimal wBattleReward, 3, 6
-	text_start
-	line "for winning!"
+	text "¥!"
 	prompt
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "was defeated!"
+	line "a perdu!"
 	prompt
 
 TiedAgainstText:
@@ -239,7 +239,7 @@ BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
-	line "sent out"
+	line "envoie"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
@@ -283,8 +283,8 @@ BattleText_CantEscape:
 	prompt
 
 BattleText_UserHurtBySpikes:
-	text "<USER>'s"
-	line "hurt by SPIKES!"
+	text "PICOTS frappent"
+	line "<USER>!"
 	prompt
 
 RecoveredUsingText:
@@ -321,8 +321,8 @@ BattleText_MonCantBeRecalled:
 	prompt
 
 BattleText_TheresNoPPLeftForThisMove:
-	text "There's no PP left"
-	line "for this move!"
+	text "Plus de PP pour"
+	line "cette capacité!"
 	prompt
 
 BattleText_TheMoveIsDisabled:
@@ -608,7 +608,7 @@ DoesntAffectText:
 	prompt
 
 CriticalHitText:
-	text "A critical hit!"
+	text "Coup critique!"
 	prompt
 
 OneHitKOText:
@@ -616,13 +616,13 @@ OneHitKOText:
 	prompt
 
 SuperEffectiveText:
-	text "It's super-"
-	line "effective!"
+	text "C'est super"
+	line "efficace!"
 	prompt
 
 NotVeryEffectiveText:
-	text "It's not very"
-	line "effective…"
+	text "Ce n'est pas très"
+	line "efficace..."
 	prompt
 
 TookDownWithItText:
@@ -706,8 +706,9 @@ AlreadyPoisonedText:
 	prompt
 
 SuckedHealthText:
-	text "Sucked health from"
-	line "<TARGET>!"
+	text "L'énerge de"
+	line "<TARGET>"
+	cont "est aspirée!"
 	prompt
 
 DreamEatenText:
@@ -985,8 +986,8 @@ ProtectingItselfText:
 	done
 
 SpikesText:
-	text "SPIKES scattered"
-	line "all around"
+	text "Des PICOTS s'épar-"
+	line "pillent autour de"
 	cont "<TARGET>!"
 	prompt
 
@@ -1002,8 +1003,8 @@ StartPerishText:
 	prompt
 
 SandstormBrewedText:
-	text "A SANDSTORM"
-	line "brewed!"
+	text "Une TEMPETE de"
+	line "SABLE se prépare!"
 	prompt
 
 BracedItselfText:

@@ -1,8 +1,9 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "Bonjour?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "Oh, salut,"
+	line "<PLAYER>!"
+	cont "Ca bosse dur?"
 	done
 
 MomPhoneLandmarkText:
@@ -31,13 +32,13 @@ MomPhoneGenericAreaText:
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
+	text "Quoi? Tu es vers"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "Passe voir ta"
+	line "maman des fois!"
 	done
 
 MomPhoneCherrygroveText:
@@ -82,16 +83,17 @@ MomCheckBalanceText:
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "C'est important"
+	line "d'économiser."
 	done
 
 MomYoureNotSavingText:
 	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	line "tu n'as pas écono-"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "misé d'argent."
+	line "Veux-tu économiser"
+	cont "de l'argent?"
 	done
 
 MomYouveSavedText:
@@ -105,19 +107,19 @@ MomYouveSavedText:
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "OK. Je vais garder"
+	line "ton argent."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "OK. Je ne garde"
+	line "pas ton argent."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>, continue"
+	line "comme ça! Je suis"
+	cont "avec toi, poussin!"
 	done
 
 MomPhoneNoPokemonText:
@@ -138,13 +140,13 @@ MomPhoneNoPokedexText:
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "Allô?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Salut, <PLAYER>!"
+	line "Si ta course est"
 
-	para "your errand come"
-	line "on home, dear."
+	para "finie, rentre à la"
+	line "maison."
 	done
 
 MomPhoneLectureText:
