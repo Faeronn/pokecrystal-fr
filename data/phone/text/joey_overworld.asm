@@ -41,16 +41,16 @@ JoeyPhoneFullText:
 	done
 
 JoeyRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Je t'attendais!"
+	line "COMBAT!"
 	done
 
 JoeyPackFullText:
-	text "Hey, wait! Your"
-	line "PACK is stuffed!"
+	text "Attends! Ton SAC"
+	line "est super plein!"
 
-	para "Well, we'll leave"
-	line "it till next time."
+	para "On fait ça une"
+	line "prochaine fois."
 	done
 
 JoeyRematchGiftText:

@@ -24,35 +24,34 @@ JoeyDefeatedMonText:
 	done
 
 JoeyLostAMonText:
-	text "Oh yeah, I saw a"
-	line "wild @"
+	text "Oh! J'ai vu un"
+	line "@"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I thought about"
-	line "going for it, but"
+	para "J'ai voulu le"
+	line "choper, mais"
 
-	para "I decided to work"
-	line "with my one-and-"
-
-	para "only right to the"
-	line "extreme end."
+	para "finalement j'ai"
+	line "préféré lui mettre"
+	cont "une rouste."
 	done
 
 JoeyBattleRematchText:
-	text "Let's get together"
-	line "and battle!"
+	text "On se fait un"
+	line "combat?"
 
-	para "I promise things"
-	line "will be different!"
+	para "J'ai changé, tu"
+	line "verras!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text ","
+	line "c'est là où je"
+	cont "suis."
 
-	para "Give me a shout"
-	line "when you come."
+	para "Appelle si tu es"
+	line "dans le coin."
 	done
 
 JoeyHangUpText:
@@ -73,13 +72,13 @@ JoeyDevisingStrategiesText:
 	done
 
 JoeyReminderText:
-	text "What's keeping"
-	line "you, <PLAYER>!"
+	text "Je t'attends,"
+	line "<PLAYER>!"
 
-	para "Let's get down and"
-	line "battle already!"
+	para "On se le fait ce"
+	line "combat ou bien?"
 
-	para "I'm waiting on"
+	para "J'attends vers"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

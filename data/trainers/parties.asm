@@ -1514,7 +1514,7 @@ BugCatcherGroup:
 	db -1 ; end
 
 	; BUG_CATCHER (4)
-	db "WADE@", TRAINERTYPE_NORMAL
+	db "MAXIME@", TRAINERTYPE_NORMAL
 	db  2, CATERPIE
 	db  2, CATERPIE
 	db  3, WEEDLE

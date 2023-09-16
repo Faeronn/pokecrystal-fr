@@ -266,50 +266,51 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "DARK CAVE…"
+	text "ANTRE NOIRE..."
 
-	para "If #MON could"
-	line "light it up, I'd"
-	cont "explore it."
+	para "Si un #MON pou-"
+	line "vait l'éclairer,"
+	cont "on pourrait"
+	cont "l'explorer..."
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "J'ai attrapé plein"
+	line "de #MON. On va"
+	cont "faire un combat!"
 	done
 
 BugCatcherWade1BeatenText:
-	text "Awwwww…"
+	text "Aaaaaaaaah!"
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
+	text "Tu peux attraper"
+	line "un #MON même"
 
-	para "you have six with"
-	line "you."
+	para "si tu en as six"
+	line "sur toi."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Il sera transféré"
+	line "à ta BOITE automa-"
+	cont "tiquement."
 	done
 
 Text_Route31SleepyMan:
-	text "… Hnuurg… Huh?"
+	text "...Nnngneuh?"
 
-	para "I walked too far"
-	line "today looking for"
+	para "J'ai trop marché"
+	line "pour trouver des"
 	cont "#MON."
 
-	para "My feet hurt and"
-	line "I'm sleepy…"
+	para "J'ai mal aux pieds"
+	line "et j'ai sommeil."
 
-	para "If I were a wild"
-	line "#MON, I'd be"
-	cont "easy to catch…"
+	para "Si j'étais un"
+	line "#MON, je serais"
+	cont "facile à choper..."
 
-	para "…Zzzz…"
+	para "...Zzzz..."
 	done
 
 Text_Route31SleepyManGotMail:
@@ -392,27 +393,28 @@ Text_Route31CantTakeLastMon:
 	done
 
 Route31YoungsterText:
-	text "I found a good"
-	line "#MON in DARK"
-	cont "CAVE."
+	text "J'ai trouvé un bon"
+	line "#MON dans"
+	cont "l'ANTRE NOIRE."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "FALKNER."
+	para "Je vais l'entraî-"
+	line "ner pour battre"
+	cont "ALBERT."
 
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	para "Il est le CHAMPION"
+	line "de l'ARENE de"
+	cont "MAUVILLE."
 	done
 
 Route31SignText:
 	text "ROUTE 31"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "MAUVILLE -"
+	line "VILLE GRIOTTE"
 	done
 
 DarkCaveSignText:
-	text "DARK CAVE"
+	text "ANTRE NOIRE"
 	done
 
 Route31_MapEvents:
