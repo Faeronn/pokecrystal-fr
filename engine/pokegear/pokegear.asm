@@ -1249,7 +1249,7 @@ PokegearPhoneContactSubmenu:
 	dwcoord 10, 6
 	db 3
 	db   "APPELER"
-	next "DELETE"
+	next "EFFACER"
 	next "RETOUR"
 	db   "@"
 

@@ -487,9 +487,9 @@ BillsPC_Withdraw:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
+	db "RETIRER@"
 	db "STATS@"
-	db "RELEASE@"
+	db "RELACHER@"
 	db "RETOUR@"
 
 _MovePKMNWithoutMail:
@@ -2202,16 +2202,16 @@ PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
 PCString_ChooseaPKMN: db "Choisir un <PK><MN>.@"
 PCString_WhatsUp: db "Que faire?@"
-PCString_ReleasePKMN: db "Release <PK><MN>?@"
+PCString_ReleasePKMN: db "Relâcher <PK><MN>?@"
 PCString_MoveToWhere: db "Move to where?@"
 PCString_ItsYourLastPKMN: db "Dernier <PK><MN>!@"
 PCString_TheresNoRoom: db "There's no room!@"
 PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
 PCString_RemoveMail: db "Remove MAIL.@"
-PCString_ReleasedPKMN: db "Released <PK><MN>.@"
-PCString_Bye: db "Bye,@"
-PCString_Stored: db "Stored @"
-PCString_Got: db "Got @"
+PCString_ReleasedPKMN: db "<PK><MN> relâché.@"
+PCString_Bye: db "Adieu @"
+PCString_Stored: db "@ gardé!"
+PCString_Got: db "@ obtenu!"
 PCString_Non: db "Non.@" ; unreferenced
 PCString_BoxFull: db "The BOX is full.@"
 PCString_PartyFull: db "The party's full!@"
