@@ -184,19 +184,22 @@ TiedAgainstText:
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> remporte"
+	line "@"
 	text_decimal wBattleReward, 3, 6
-	text_start
-	line "for winning!"
-	cont "Sent some to MOM!"
+	text "¥!"
+	cont "Une partie est"
+	cont "envoyée à MAMAN!"
 	prompt
 
 SentHalfToMomText:
-	text "Sent half to MOM!"
+	text "La moitié est"
+	line "envoyée à MAMAN!"
 	prompt
 
 SentAllToMomText:
-	text "Sent all to MOM!"
+	text "Tout est envoyé"
+	line "à MAMAN!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced

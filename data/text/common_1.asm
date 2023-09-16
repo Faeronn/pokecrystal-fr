@@ -40,7 +40,7 @@ _HowManyShouldIMakeText::
 _RecoveredSomeHPText::
 	text_ram wStringBuffer1
 	text_start
-	line "recovered @"
+	line "regagne @"
 	text_decimal wCurHPAnimDeltaHP, 2, 3
 	text "HP!"
 	done

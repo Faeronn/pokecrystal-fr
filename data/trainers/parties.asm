@@ -337,12 +337,12 @@ ErikaGroup:
 
 YoungsterGroup:
 	; YOUNGSTER (1)
-	db "JOEY@", TRAINERTYPE_NORMAL
+	db "GASPARD@", TRAINERTYPE_NORMAL
 	db  4, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (2)
-	db "MIKEY@", TRAINERTYPE_NORMAL
+	db "MARIN@", TRAINERTYPE_NORMAL
 	db  2, PIDGEY
 	db  4, RATTATA
 	db -1 ; end
@@ -1495,7 +1495,7 @@ SabrinaGroup:
 
 BugCatcherGroup:
 	; BUG_CATCHER (1)
-	db "DON@", TRAINERTYPE_NORMAL
+	db "JEAN-RAOUL@", TRAINERTYPE_NORMAL
 	db  3, CATERPIE
 	db  3, CATERPIE
 	db -1 ; end

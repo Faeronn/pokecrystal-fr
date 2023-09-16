@@ -1239,10 +1239,11 @@ _BallSentToPCText::
 	prompt
 
 _NewDexDataText::
+	text "Le profil de"
+	line "@"
 	text_ram wEnemyMonNickname
-	text "'s data"
-	line "was newly added to"
-	cont "the #DEX.@"
+	text " est"
+	cont "ajouté au #DEX.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1250,7 +1251,7 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Give a nickname to"
+	text "Donner un surnom à"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"

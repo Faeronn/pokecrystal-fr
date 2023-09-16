@@ -372,15 +372,15 @@ HappinessText1:
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registered"
-	line "@"
+	text "<PLAYER> enregistre"
+	line "le No. de @"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registered"
-	line "@"
+	text "<PLAYER> enregistre"
+	line "le No. de @"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "."
 	done
