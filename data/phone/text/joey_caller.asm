@@ -60,17 +60,16 @@ JoeyHangUpText:
 	done
 
 JoeyDevisingStrategiesText:
-	text "I'm checking out"
+	text "J'analyse"
 	line "@"
 	text_ram wStringBuffer4
-	text "'s moves"
 
-	para "and devising some"
-	line "strategies."
+	para "et j'élabore des"
+	line "stratégies."
 
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "Si j'en trouve une"
+	line "bonne, on se fait"
+	cont "un combat!"
 	done
 
 JoeyReminderText:

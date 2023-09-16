@@ -42,13 +42,14 @@ MomPhoneNewBarkText:
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
+	text "Tu visites"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "Tu passes à la"
+	line "maison manger un"
+	cont "morceau?"
 	done
 
 MomOtherAreaText:
