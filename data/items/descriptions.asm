@@ -583,8 +583,8 @@ KingsRockDesc:
 	next "flinch. (HOLD)@"
 
 BitterBerryDesc:
-	db   "A self-cure for"
-	next "confusion. (HOLD)@"
+	db   "Un anti-confusion"
+	next "automatique. (TENU)@"
 
 MintBerryDesc:
 	db   "A self-awakening"

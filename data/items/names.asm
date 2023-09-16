@@ -82,7 +82,7 @@ ItemNames::
 	li "ICE BERRY"
 	li "POISON BARB"
 	li "KING'S ROCK"
-	li "BITTER BERRY"
+	li "BAIE AMERE"
 	li "MINT BERRY"
 	li "RED APRICORN"
 	li "TINYMUSHROOM"
