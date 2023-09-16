@@ -1,30 +1,26 @@
 JoeyMonLookingSharperText:
-	text "My @"
+	text "Mon @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking sharper"
-	cont "than before!"
+	text_start
+	line "est en méga super"
+	cont "forme!"
 
-	para "I doubt there's a"
-	line "#MON as cool as"
-
-	para "this guy in your"
-	line "party!"
+	para "J'pense que t'en"
+	line "as pas des #MON"
+	cont "comme le mien!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down a @"
+	text "Oh! J'ai battu"
+	line "un @"
 	text_ram wStringBuffer4
 	text_start
-	para "in the wild the"
-	line "other day."
+	para "sauvage l'autre"
+	line "jour."
 
-	para "It was a cakewalk."
-	line "Well, I guess it"
-
-	para "can't be helped,"
-	line "us being so tough."
+	para "Trop facile."
+	line "Normal."
+	cont "J'suis une brute."
 	done
 
 JoeyLostAMonText:
@@ -60,7 +56,7 @@ JoeyBattleRematchText:
 	done
 
 JoeyHangUpText:
-	text "All right. Later!"
+	text "A plus tard!"
 	done
 
 JoeyDevisingStrategiesText:

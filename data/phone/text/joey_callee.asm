@@ -27,12 +27,12 @@ JoeyAnswerPhoneNiteText:
 
 JoeyGreetText:
 	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	line "Ca boume?"
 
-	para "This is @"
+	para "C'est @"
 	text_ram wStringBuffer3
-	text ","
-	line "got a minute?"
+	text "."
+	line "T'as une minute?"
 	done
 
 JoeyGreetDayText:

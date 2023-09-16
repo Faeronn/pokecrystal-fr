@@ -52,13 +52,13 @@ MomPhoneCherrygroveText:
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "Oh!, Tu es vers"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "Bonne chance pour"
+	line "ta quête #MON!"
 	done
 
 MomDeterminedText:
@@ -73,13 +73,13 @@ MomDeterminedText:
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "A propos, tu as"
+	line "économisé ¥@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "Veux-tu continuer"
+	line "à économiser?"
 	done
 
 MomImportantToSaveText:
